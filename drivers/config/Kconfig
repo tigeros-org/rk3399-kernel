@@ -1,0 +1,7 @@
+config KERNEL_CONFIG_DEV
+       tristate "kernel configure device"
+       help
+         kernel configure device
+
+
+

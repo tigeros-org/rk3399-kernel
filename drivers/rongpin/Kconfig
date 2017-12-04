@@ -1,0 +1,13 @@
+
+menu "rongpin support"
+
+config POWER_EN
+	tristate "rongpin 5v_en support"
+config TC358772XBG
+	tristate "rongpin tc358772xbg support"
+config RP_LED
+	tristate "rongpin rp_led support"
+config GPIO_CTL
+	tristate "rongpin gpio_ctl support"
+
+endmenu
